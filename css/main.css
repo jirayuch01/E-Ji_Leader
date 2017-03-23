@@ -1,0 +1,116 @@
+body{
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+input,select{
+    padding: 5px;
+}
+a{
+    color: #19232d;
+    text-decoration: none;
+}
+hr{
+    border-width: 0px;
+    border-bottom: 1px solid #DEDEDE;
+}
+form{
+    margin-bottom: 0;
+}
+form * label{
+    width : 120px;
+    text-align : right;
+    float : left;
+    margin-right : 10px;
+    margin-top: 5px;
+}
+table{
+    margin-bottom:10px;
+    width: 80%;
+}
+.box-right{
+    float: left;
+    width: 75%;
+}
+.box-right>div{
+    border : 1px solid #DEDEDE;
+    padding: 50px 50px 30px 50px;
+}
+.box-right * form * input:not([type="submit"]),
+.box-right * form * select{
+    width : 50%;
+}
+.box-right * form * input[type="number"]{
+    width : 7%;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-submit{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.form-submit>div{
+    float: right;
+}
+.form-submit>label{
+    margin-right: 5px;
+}
+.box-in-form,.box{
+    border-bottom: 1px solid #DEDEDE;
+    margin-bottom: 10px;
+}
+.header-form{
+    background-color: #FFFFFF;
+    margin: -73px 0 0 0;
+    padding: 10px;
+    float: left;
+    border: 1px solid #DEDEDE;
+    position: absolute;
+}
+.box-left{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+
+}
+.box-left>div{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #DEDEDE;
+}
+.box-left>div>ul{
+    padding-left: 0;
+}
+.box-left>div>ul>li{
+    list-style: none;
+    padding: 5px 20px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.box-left>div>ul>li:hover{
+    background-color: #DFDFDF;
+}
+.box-left>div>h5{
+    margin: 5px 0 0 5px;
+}
+.footer {
+   height: 20px; 
+   display: block;
+   text-align: center;
+}
+div.iBannerFix{  
+    height:50px;  
+    position:fixed;  
+    left:0px;  
+    bottom:0px;  
+    background-color:#000000;  
+    width:100%;  
+    z-index: 99;  
+}  
+.cube {
+    float: left;
+    width: 50px; 
+    height: 50px;
+}
